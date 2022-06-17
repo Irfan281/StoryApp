@@ -1,0 +1,78 @@
+{
+  "error": false,
+  "message": "Stories fetched successfully",
+  "listStory": [
+    {
+      "id": "story-h6xbrWS-ZPRfZkGN",
+      "name": "Aditasha",
+      "description": "test",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650999445089_byLFgQH9.jpg",
+      "createdAt": "2022-04-26T18:57:25.089Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story--xrpraozq4N_RpoW",
+      "name": "lisa ann",
+      "description": "zxc",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650999431031_--4vXBsn.jpg",
+      "createdAt": "2022-04-26T18:57:11.032Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-zvM-sB5ATVzfE1B8",
+      "name": "lisa ann",
+      "description": "123",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650999416997_RrTDophn.jpg",
+      "createdAt": "2022-04-26T18:56:56.998Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-4QtOb30rfxXktUt7",
+      "name": "lisa ann",
+      "description": "y",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650999405434_56D0bS8K.jpg",
+      "createdAt": "2022-04-26T18:56:45.437Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-I-g5Vtu_M6OxDeQz",
+      "name": "lisa ann",
+      "description": "zxasd",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650999393288_LYk4Zmju.jpg",
+      "createdAt": "2022-04-26T18:56:33.290Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-OysSuwlx0DGdm5D_",
+      "name": "lisa ann",
+      "description": "kk",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650999285642_itdGdudP.jpg",
+      "createdAt": "2022-04-26T18:54:45.643Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-XlB5xumpz7HoOcCU",
+      "name": "ad",
+      "description": "Test",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650999250874_Q5KuOhVj.jpg",
+      "createdAt": "2022-04-26T18:54:10.878Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-d3zJs-YrqhQIc9pO",
+      "name": "lisa ann",
+      "description": "jjj",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650999212887_6XgB6A4w.jpg",
+      "createdAt": "2022-04-26T18:53:32.888Z",
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

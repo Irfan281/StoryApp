@@ -1,0 +1,98 @@
+A. UNIT TEST
+a.) Unit Test ViewModel
+
+1. DaftarViewModelTest
+● Ketika Register Berhasil
+    Memastikan Response yang dihasilkan tidak Null
+    Memastikan Response dengan Nilai Return Error False
+● Ketika Register Error
+    Memastikan Response dengan Nilai Return Error True
+
+2. LoginViewModelTest
+● Ketika Login Berhasil
+    Memastikan Response yang dihasilkan tidak Null
+    Memastikan Response dengan Nilai Return Error False
+● Ketika Login Error
+    Memastikan Response dengan Nilai Return Error True
+
+3. HomeViewModelTest
+● Ketika Mendapatkan Token Yang Tidak Null
+    Memastikan Nilai Return Token tidak null
+    Memastikan Return yang dihasilkan token sesuai dengan nilai yang diharapkan
+● Ketika Mendapatkan Token yang Null
+    Memastikan Berhasil menjalankan fungsi get Token
+    Memastikan Token yang di return bernilai Null
+● Ketika Mendapatkan Story Berhasil
+    Memastikan list story tidak null
+    Memastikan nilai return sesuai dengan yang diharapkan
+    Memastikan jumlah dummy story yang diharapkan sesuai dengan sebenarnya
+    Memastikan ID pertama story sesuai dengan yang diharapkan
+
+4. StoryMapViewModelTest
+● Ketika Mendapatkan Token Yang Tidak Null
+    Memastikan Nilai Return Token tidak null
+    Memastikan Return yang dihasilkan token sesuai dengan nilai yang diharapkan
+● Ketika Mendapatkan Token yang Null
+    Memastikan Berhasil menjalankan fungsi get Token
+    Memastikan Token yang di return bernilai Null
+● Ketika Mendapatkan Story dengan lokasi Berhasil
+    Memastikan list story tidak null
+    Memastikan nilai return sesuai dengan yang diharapkan
+    Memastikan jumlah dummy story yang diharapkan sesuai dengan sebenarnya
+    Memastikan ID pertama story sesuai dengan yang diharapkan
+
+5. SplashViewModelTest
+● Ketika Mendapatkan Token Yang Tidak Null
+    Memastikan Nilai Return Token tidak null
+    Memastikan Return yang dihasilkan token sesuai dengan nilai yang diharapkan
+● Ketika Mendapatkan Token yang Null
+    Memastikan Berhasil menjalankan fungsi get Token
+    Memastikan Token yang di return bernilai Null
+
+6. UploadViewModelTest
+● Ketika Upload success
+    Memastikan nilai response tidak null
+    Memastikan Response dengan Nilai Return Error False
+    Memastikan Response sesuai dengan yang di harapkan
+● Ketika Upload Error
+    Memastikan Response dengan Nilai Return Error True
+● Ketika Mendapatkan Token Yang Tidak Null
+    Memastikan Nilai Return Token tidak null
+    Memastikan Return yang dihasilkan token sesuai dengan nilai yang diharapkan
+● Ketika Mendapatkan Token yang Null
+    Memastikan Berhasil menjalankan fungsi get Token
+    Memastikan Token yang di return bernilai Null
+
+7. SettingViewModelTest
+● Ketika Logout dijalankan
+    Memastikan fungsi logout dengan menghapus session pada datastore berjalan
+
+
+b.) Unit Test Repository
+1. StoryRepositoryTest
+● Ketika Mendapatkan Story Berhasil
+    Memastikan list story tidak null
+    Memastikan nilai return sesuai dengan yang diharapkan
+    Memastikan jumlah dummy story yang diharapkan sesuai dengan sebenarnya
+    Memastikan ID pertama story sesuai dengan yang diharapkan
+● Ketika Mendapatkan Story dengan lokasi Berhasil
+    Memastikan list story tidak null
+    Memastikan nilai return sesuai dengan yang diharapkan
+    Memastikan jumlah dummy story yang diharapkan sesuai dengan sebenarnya
+    Memastikan ID pertama story sesuai dengan yang diharapkan
+
+
+B. INTEGRATION TEST
+1. HomeActivityTest
+Diberi Anotasi @MediumTest
+● Ketika Berhasil Mendapatkan Story Yang tidak kosong
+    Memastikan Recyler View dengan Id rv_stories dapat tampil
+    Memastikan FAB Button dengan Id fab_upload dapat tampil
+    Memastikan textview "Aditasha" (sesuai dengan mock success_reponse.json) dapat tampil
+● Ketika Berhasil Mendapatkan Story yang Kosong
+    Memastikan ImageView dengan id img_empty dapat tampil
+    Memastikan TextView pesan story kosong dengan id tv_empty dapat tampil
+● Ketika Gagal mendapatkan story
+    Memastikan ImageView dengan id img_empty dapat tampil
+    Memastikan TextView pesan story kosong dengan  id tv_empty dapat tampil
+
